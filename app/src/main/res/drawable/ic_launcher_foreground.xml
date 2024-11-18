@@ -1,0 +1,51 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background Circle with Gradient -->
+    <path
+        android:pathData="M54,54m-44,0a44,44 0,1 1,88 0a44,44 0,1 1,-88 0"
+        android:fillType="evenOdd">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="20"
+                android:startY="20"
+                android:endX="88"
+                android:endY="88">
+                <item android:offset="0" android:color="#FF00BCD4"/>
+                <item android:offset="1" android:color="#FF2196F3"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Milk Bottle -->
+    <path
+        android:pathData="M42,28L66,28A2,2 0,0 1,68 30L68,34A2,2 0,0 1,66 36L42,36A2,2 0,0 1,40 34L40,30A2,2 0,0 1,42 28z"
+        android:fillColor="#FFFFFF"/>
+    <path
+        android:pathData="M44,36L64,36L64,76C64,78.2091 62.2091,80 60,80L48,80C45.7909,80 44,78.2091 44,76L44,36"
+        android:fillColor="#FFFFFF"/>
+    
+    <!-- Calculator Display -->
+    <path
+        android:pathData="M48,44L60,44A2,2 0,0 1,62 46L62,50A2,2 0,0 1,60 52L48,52A2,2 0,0 1,46 50L46,46A2,2 0,0 1,48 44z"
+        android:fillColor="#E3F2FD"/>
+    
+    <!-- Calculator Buttons -->
+    <path
+        android:pathData="M48,56L52,56A1,1 0,0 1,53 57L53,61A1,1 0,0 1,52 62L48,62A1,1 0,0 1,47 61L47,57A1,1 0,0 1,48 56z"
+        android:fillColor="#E3F2FD"/>
+    <path
+        android:pathData="M56,56L60,56A1,1 0,0 1,61 57L61,61A1,1 0,0 1,60 62L56,62A1,1 0,0 1,55 61L55,57A1,1 0,0 1,56 56z"
+        android:fillColor="#E3F2FD"/>
+    <path
+        android:pathData="M48,66L52,66A1,1 0,0 1,53 67L53,71A1,1 0,0 1,52 72L48,72A1,1 0,0 1,47 71L47,67A1,1 0,0 1,48 66z"
+        android:fillColor="#E3F2FD"/>
+    <path
+        android:pathData="M56,66L60,66A1,1 0,0 1,61 67L61,71A1,1 0,0 1,60 72L56,72A1,1 0,0 1,55 71L55,67A1,1 0,0 1,56 66z"
+        android:fillColor="#E3F2FD"/>
+</vector>
